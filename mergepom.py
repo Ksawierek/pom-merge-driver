@@ -25,7 +25,7 @@ def get_tag(f):
             return matchingNodes.firstChild.nodeValue
         return None
     except Exception as e:
-        print e
+        print(e)
         print(sys.argv[0] + ': error while parsing pom.xml')
         return None
 
